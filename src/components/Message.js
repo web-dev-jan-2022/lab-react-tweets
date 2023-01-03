@@ -1,6 +1,6 @@
-function Timestamp(props) {
+function Message(props) {
   console.log(props);
-  return <span className="timestamp">{props.time}</span>;
+  return <span className="message">{props.message}</span>;
 }
 
-export default Timestamp;
+export default Message;
